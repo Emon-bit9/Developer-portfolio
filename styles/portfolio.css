@@ -30,8 +30,6 @@ body {
     text-align: center;
     font-family: Open Sans;
     font-size: 20px;
- 
-    
     
 }
 
@@ -134,6 +132,8 @@ nav a {
     font-family: Open Sans;
     font-size: 35px;
     font-weight: 700;
+    justify-content: space-around;
+
 
 }
 
@@ -253,9 +253,7 @@ main section {
 
 }
 
-.section-title {
-    text-align: left;
-}
+
 
 .footer-column {
     width: 50%;
