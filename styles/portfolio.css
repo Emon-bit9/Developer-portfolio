@@ -19,6 +19,22 @@ body {
     padding: 13px 20px;
 }
 
+.button-secondary {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    width: 110px;
+    height: 55px;
+    flex-shrink: 0;
+    background: #FFF8F3;
+    color: #FD6E0A;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+ 
+    
+    
+}
+
 /*nav related style */
 nav {
     display: flex;
@@ -46,6 +62,12 @@ nav li {
 
 nav a {
     text-decoration: none;
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+
+    font-weight: 400;
+
 }
 
 /* header related styles*/
@@ -239,11 +261,13 @@ main section {
     width: 50%;
 }
 
-.social-links a{
+.social-links a {
     margin-right: 24px;
 
 }
-.contact input[type="text"], input[type="email"],
+
+.contact input[type="text"],
+input[type="email"],
 textarea {
     display: block;
     margin-bottom: 25px;
@@ -252,5 +276,5 @@ textarea {
     border-radius: 5px;
     background: #FFF;
     border: 0;
-    width: 100%;   
+    width: 100%;
 }
